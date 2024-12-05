@@ -4,7 +4,7 @@ using UnityEngine.UIElements;
 
 public class GameStart : MonoBehaviour
 {
-    [SerializeField] CharacterController playerMoveScp;
+    [SerializeField] PlayerController playerScp;
     [SerializeField] Material Material;
     [SerializeField] int startTime;
     void Start()
@@ -23,7 +23,7 @@ public class GameStart : MonoBehaviour
 
     private void playerStart()
     {
-        playerMoveScp.enabled = true;
+        playerScp.enabled = true;
     }
 
 

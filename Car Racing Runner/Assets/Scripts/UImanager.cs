@@ -5,9 +5,9 @@ using UnityEngine.UI;
 public class UImanager : MonoBehaviour
 {
     [SerializeField] GameObject canvas;
-    [SerializeField] CharacterController moveScp;
+    [SerializeField] PlayerController playerScp;
     //[SerializeField] AudioSource audioSource;
-    [SerializeField] Slider slider;
+    //[SerializeField] Slider slider;
 
 
     private void Start()
@@ -24,19 +24,19 @@ public class UImanager : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Escape) && canvas.activeSelf == false)
         {
-            moveScp.enabled = false;
+            playerScp.enabled = false;
             canvas.gameObject.SetActive(true);
         }
         else if (Input.GetKeyDown(KeyCode.Escape) && canvas.activeSelf == true)
         {
             canvas.gameObject.SetActive(false);
-            moveScp.enabled = true;
+            playerScp.enabled = true;
         }
     }
 
     public void ExitButton()
     {
-        moveScp.enabled = true;
+        playerScp.enabled = true;
         canvas.gameObject.SetActive(false);
     }
 
