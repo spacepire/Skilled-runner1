@@ -8,15 +8,12 @@ public class InstantiateManager : MonoBehaviour
     [SerializeField] Transform player;
     [Header("Objects")]
     [SerializeField] GameObject roads;
-    //[SerializeField] GameObject terrain;
-    [SerializeField] GameObject[] coinOrBuild;
 
+    [SerializeField] GameObject[] coinOrBuild;
 
     private float roadLenght = 690;
     private float roadM = 30;
-    /*
-    private float terrainLenght = 684;
-    private float terrainM = 350;*/
+
 
     private float coinLenght = 50;
 
@@ -37,12 +34,6 @@ public class InstantiateManager : MonoBehaviour
             Instantiate(roads, transform.position + new Vector3(0, 0, roadLenght), Quaternion.identity);
             roadLenght += roadM;
         }
-       /* if (player.position.z >= terrainLenght / 2)
-        {
-            Instantiate(terrain, transform.position + new Vector3(9, 0, terrainLenght), Quaternion.identity);
-            Instantiate(terrain, transform.position + new Vector3(-109, 0, terrainLenght), Quaternion.identity);
-            terrainLenght += terrainM;
-        }*/
     }
 
     private void CollettibleInstantiate()

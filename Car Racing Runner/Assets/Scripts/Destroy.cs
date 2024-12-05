@@ -20,7 +20,9 @@ public class Destroy : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("Road") || other.gameObject.CompareTag("Collectables") || other.gameObject.CompareTag("Obstacle"))
+        if (other.gameObject.CompareTag("Road") || 
+            other.gameObject.CompareTag("Collectables") || 
+            other.gameObject.CompareTag("Obstacle"))
         {
             Destroy(other.gameObject);
         }
