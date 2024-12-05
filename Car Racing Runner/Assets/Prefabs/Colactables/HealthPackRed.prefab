@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114957245869706142}
   - component: {fileID: 82516303070720438}
   - component: {fileID: 135964333003620648}
+  - component: {fileID: 3788533114889270322}
   m_Layer: 2
   m_Name: HealthPackRed
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,4 +224,25 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.3367196
+  m_Center: {x: 0.000000048428774, y: -1.138846e-15, z: -7.2164497e-16}
+--- !u!65 &3788533114889270322
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1465207541995380}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17707837, y: 0.67343915, z: 0.6734392}
   m_Center: {x: 0.000000048428774, y: -1.138846e-15, z: -7.2164497e-16}

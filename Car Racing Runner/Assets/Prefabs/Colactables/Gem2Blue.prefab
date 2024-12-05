@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114859855968673622}
   - component: {fileID: 82050173413735076}
   - component: {fileID: 135897758608950346}
+  - component: {fileID: -1331251661311864726}
   m_Layer: 0
   m_Name: Gem2Blue
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,4 +224,25 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.3
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!65 &-1331251661311864726
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1970942805403306}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.10103149, y: 0.7852317, z: 0.39397123}
   m_Center: {x: 0, y: 0, z: 0}

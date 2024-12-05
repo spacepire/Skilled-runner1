@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114286004010188292}
   - component: {fileID: 82573295217224826}
   - component: {fileID: 135683590253784334}
+  - component: {fileID: -1865461434039942529}
   m_Layer: 2
   m_Name: HourGlass
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,4 +224,25 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.394977
+  m_Center: {x: -8.392699e-16, y: 0.000000029802322, z: 0}
+--- !u!65 &-1865461434039942529
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1961338513810014}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5310699, y: 0.789954, z: 0.5310698}
   m_Center: {x: -8.392699e-16, y: 0.000000029802322, z: 0}

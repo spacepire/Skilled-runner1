@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114035885303189204}
   - component: {fileID: 82562110574244500}
   - component: {fileID: 135893241449308944}
+  - component: {fileID: 8673538927352153169}
   m_Layer: 2
   m_Name: HealthPlusGreen
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,4 +224,25 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.3367196
+  m_Center: {x: 0.000000048428774, y: 3.2260044e-23, z: 0.00000011920929}
+--- !u!65 &8673538927352153169
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041510189510284}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.17707834, y: 0.6734392, z: 0.6734392}
   m_Center: {x: 0.000000048428774, y: 3.2260044e-23, z: 0.00000011920929}

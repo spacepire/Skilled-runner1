@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114259940859920384}
   - component: {fileID: 82116696716243466}
   - component: {fileID: 135634419670544176}
+  - component: {fileID: -537635556031019159}
   m_Layer: 2
   m_Name: BarsOfSilver
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,4 +224,25 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.3780148
+  m_Center: {x: 0.00000028312206, y: -0.000000007450581, z: 0}
+--- !u!65 &-537635556031019159
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749548872141574}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.7560296, y: 0.35914904, z: 0.697603}
   m_Center: {x: 0.00000028312206, y: -0.000000007450581, z: 0}

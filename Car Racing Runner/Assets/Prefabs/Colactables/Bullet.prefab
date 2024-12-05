@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114273108599388094}
   - component: {fileID: 82776637683723400}
   - component: {fileID: 135030472764333120}
+  - component: {fileID: -5908522479190466067}
   m_Layer: 2
   m_Name: Bullet
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,4 +224,25 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.43935344
+  m_Center: {x: -0.000000007450581, y: 0.031888634, z: 0}
+--- !u!65 &-5908522479190466067
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1825870777587358}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.33117038, y: 0.8787069, z: 0.32286718}
   m_Center: {x: -0.000000007450581, y: 0.031888634, z: 0}

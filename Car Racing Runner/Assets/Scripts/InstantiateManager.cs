@@ -11,7 +11,7 @@ public class InstantiateManager : MonoBehaviour
 
     [SerializeField] GameObject[] coinOrBuild;
 
-    private float roadLenght = 690;
+    private float roadLenght = 681.5f;
     private float roadM = 30;
 
 
@@ -35,7 +35,7 @@ public class InstantiateManager : MonoBehaviour
             roadLenght += roadM;
         }
     }
-
+    
     private void CollettibleInstantiate()
     {
         if (player.position.z >= coinLenght / 5)
@@ -45,8 +45,8 @@ public class InstantiateManager : MonoBehaviour
             Vector3[] positions = new Vector3[]
             {
                 new Vector3(0, 0, coinLenght),
-                new Vector3(6, 0, coinLenght),
-                new Vector3(-6, 0, coinLenght)
+                new Vector3(4, 0, coinLenght),
+                new Vector3(-4, 0, coinLenght)
             };
 
             foreach (Vector3 pos in positions)

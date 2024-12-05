@@ -14,9 +14,10 @@ GameObject:
   - component: {fileID: 114931685396349096}
   - component: {fileID: 82831355036859214}
   - component: {fileID: 135408418541661930}
+  - component: {fileID: -6398578050158820859}
   m_Layer: 2
   m_Name: Heart
-  m_TagString: Untagged
+  m_TagString: Collectables
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -223,4 +224,25 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.25295
+  m_Center: {x: -0.00000007071872, y: 0.12511864, z: 0.000000003867206}
+--- !u!65 &-6398578050158820859
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1781561378815422}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.5059, y: 0.48473528, z: 0.14079377}
   m_Center: {x: -0.00000007071872, y: 0.12511864, z: 0.000000003867206}
